@@ -35,7 +35,7 @@ La matriz también está enlazada desde el informe, después del cuerpo de las p
 - Resumen ejecutivo e introducción, en `Paper/sections/ResumenEjecutivo.tex` y `Paper/sections/Introduccion.tex`, respectivamente.
 - Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
 - Títulos de propuestas, en `Paper/sections/Propuestas.tex`, comandos `\subsection{...}`.
-- Subtítulos, en los comandos `\subsubsection{...}` de ese mismo archivo. Los artículos completos permanecen en recuadros dentro de cada propuesta. Buscar «Texto propuesto para la ley del Plan Nacional de Desarrollo» o «Artículo 1», «Artículo 2» y así sucesivamente.
+- Subtítulos, en los comandos `\subsubsection{...}` de ese mismo archivo. Los artículos completos permanecen en recuadros dentro de cada propuesta. Buscar «Articulado propuesto» o «Artículo 1», «Artículo 2» y así sucesivamente.
 - Los artículos 8 a 15 modifican directamente el régimen del ahorro pensional y están completos dentro de la propuesta 8.
 
 ## Desarrollo jurídico dentro de las propuestas
@@ -60,4 +60,4 @@ La nota al final del informe identifica el uso de IA generativa en la búsqueda 
 
 ## Jerarquía de secciones
 
-La introducción es la sección 1 y «Propuestas» es la sección 2. Cada propuesta es una subsección numerada de 2.1 a 2.10. Sus apartados son subsubsecciones sin numeración. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. Las referencias internas a las propuestas utilizan las etiquetas `prop:1` a `prop:10`. La numeración de los 17 artículos propuestos es independiente y se conserva.
+La introducción es la sección 1 y «Propuestas» es la sección 2. Cada propuesta es una subsección numerada de 2.1 a 2.10. Sus apartados son subsubsecciones sin numeración. Cada propuesta comienza con «Qué proponemos», que reúne el instrumento y la explicación de la medida. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. Las referencias internas a las propuestas utilizan las etiquetas `prop:1` a `prop:10`. La numeración de los 17 artículos propuestos es independiente y se conserva.

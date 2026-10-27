@@ -15,7 +15,7 @@ Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas
 - `Paper/sections/Portada.tex` contiene la portada.
 - `Paper/sections/ResumenEjecutivo.tex` presenta las diez propuestas en negrilla, con una frase por propuesta.
 - `Paper/sections/Introduccion.tex` contiene la sección 1, «Introducción», con la motivación y la justificación del informe y un párrafo breve por propuesta.
-- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con las diez propuestas extensas como subsecciones 2.1 a 2.10 y sus apartados como subsubsecciones numeradas. Dentro de cada una están el texto anterior, el fundamento jurídico y los artículos completos. También incluye el cierre sobre su articulación y las condiciones generales de instrumentación.
+- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con las diez propuestas extensas como subsecciones 2.1 a 2.10 y sus apartados como subsubsecciones sin numeración. Dentro de cada una están el texto anterior, el fundamento jurídico y los artículos completos. También incluye el cierre sobre su articulación y las condiciones generales de instrumentación.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
@@ -58,4 +58,4 @@ La nota al final del informe identifica el uso de IA generativa en la búsqueda 
 
 ## Jerarquía de secciones
 
-La introducción es la sección 1 y «Propuestas» es la sección 2. Cada propuesta es una subsección numerada de 2.1 a 2.10. Sus apartados son subsubsecciones, por ejemplo 2.1.1. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. Las referencias internas a las propuestas utilizan las etiquetas `prop:1` a `prop:10`. La numeración de los 17 artículos propuestos es independiente y se conserva.
+La introducción es la sección 1 y «Propuestas» es la sección 2. Cada propuesta es una subsección numerada de 2.1 a 2.10. Sus apartados son subsubsecciones sin numeración. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. Las referencias internas a las propuestas utilizan las etiquetas `prop:1` a `prop:10`. La numeración de los 17 artículos propuestos es independiente y se conserva.

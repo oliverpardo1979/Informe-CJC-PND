@@ -1,6 +1,6 @@
 # Informe del CJC sobre propuestas para el PND
 
-Proyecto LaTeX para editar en Overleaf. El cuerpo conserva el texto completo de las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. Cada propuesta incluye ahora su desarrollo jurídico, los referentes legales internacionales y el articulado completo correspondiente. Los párrafos y enlaces anteriores se mantienen. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
+Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. Cada propuesta incluye su desarrollo jurídico, los referentes legales internacionales y el articulado completo correspondiente. La revisión de lectura del 26 de octubre precisa referentes, secuencia y conexiones para equipos técnicos del DNP y del Gobierno. Conserva las diez medidas, sus argumentos, ejemplos y enlaces. Los 18 bloques de articulado y los diez textos para las Bases se mantuvieron sin cambios durante esa revisión. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
 
 ## Edición en Overleaf
 

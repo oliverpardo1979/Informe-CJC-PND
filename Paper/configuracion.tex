@@ -1,0 +1,38 @@
+% Formato de la serie Informes sobre la Productividad en Colombia del CJC.
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\setstretch{1.15}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+  [\vspace{2pt}\hrule\vspace{4pt}]
+\titlespacing{\section}{0pt}{18pt}{8pt}
+\hypersetup{colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black,
+  pdftitle={Productividad innovación y financiación empresarial},pdfauthor={Oliver Pardo}}
+\graphicspath{{Paper/figures/}}
+\newcommand{\reportseries}{Informes sobre la Productividad en Colombia}
+\newcommand{\reportseriesdesc}{Evidencia para entender y fomentar la productividad}
+% Etiqueta de edición. Sustituir cuando se asigne un número a la publicación.
+\newcommand{\reportnumber}{Propuestas para el PND}
+\newcommand{\reporttitle}{Productividad, innovación y financiación empresarial}
+\newcommand{\reportsubtitle}{Diez propuestas para el Plan Nacional de Desarrollo}
+\newcommand{\reportauthor}{Oliver Pardo}
+\newcommand{\reportaffiliation}{Centro Javeriano de Competitividad\\Pontificia Universidad Javeriana}
+\newcommand{\reportdate}{26 de octubre de 2026}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Centro Javeriano de Competitividad}
+\fancyhead[R]{\footnotesize \reportnumber}
+\cfoot{\thepage}
+\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\refname}{Referencias}

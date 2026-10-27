@@ -14,8 +14,8 @@ Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas
 - `Paper/configuracion.tex` contiene formato, título, autoría, fecha y etiqueta de edición.
 - `Paper/sections/Portada.tex` contiene la portada.
 - `Paper/sections/ResumenEjecutivo.tex` presenta las diez propuestas en negrilla, con una frase por propuesta.
-- `Paper/sections/Introduccion.tex` contiene la motivación y la justificación del informe, con un párrafo breve por propuesta.
-- `Paper/sections/Propuestas.tex` contiene las diez propuestas extensas, enumeradas del 1 al 10. Dentro de cada una están el texto anterior, el fundamento jurídico y los artículos completos. También incluye el cierre sobre su articulación y las condiciones generales de instrumentación.
+- `Paper/sections/Introduccion.tex` contiene la sección 1, «Introducción», con la motivación y la justificación del informe y un párrafo breve por propuesta.
+- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con las diez propuestas extensas como subsecciones 2.1 a 2.10 y sus apartados como subsubsecciones numeradas. Dentro de cada una están el texto anterior, el fundamento jurídico y los artículos completos. También incluye el cierre sobre su articulación y las condiciones generales de instrumentación.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
@@ -32,8 +32,8 @@ La matriz también está enlazada desde el informe, después del cuerpo de las p
 
 - Resumen ejecutivo e introducción, en `Paper/sections/ResumenEjecutivo.tex` y `Paper/sections/Introduccion.tex`, respectivamente.
 - Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
-- Títulos de propuestas, en `Paper/sections/Propuestas.tex`, líneas que comienzan con `\item \textbf{...}`.
-- Subtítulos y artículos completos, en ese mismo archivo, dentro de cada propuesta. Buscar «Texto propuesto para la ley del Plan Nacional de Desarrollo» o «Artículo 1», «Artículo 2» y así sucesivamente.
+- Títulos de propuestas, en `Paper/sections/Propuestas.tex`, comandos `\subsection{...}`.
+- Subtítulos, en los comandos `\subsubsection{...}` de ese mismo archivo. Los artículos completos permanecen en recuadros dentro de cada propuesta. Buscar «Texto propuesto para la ley del Plan Nacional de Desarrollo» o «Artículo 1», «Artículo 2» y así sucesivamente.
 - Los artículos 8 a 15 modifican directamente el régimen del ahorro pensional y están completos dentro de la propuesta 8.
 
 ## Desarrollo jurídico dentro de las propuestas
@@ -51,3 +51,7 @@ Se reutilizaron el logo, la serie, la portada, el recuadro del resumen y los enc
 ## Uso de inteligencia artificial
 
 La nota al final del informe identifica el uso de IA generativa en la búsqueda y síntesis de antecedentes, la redacción y la preparación de LaTeX. La nota no atribuye a la IA la responsabilidad por los argumentos o las propuestas.
+
+## Jerarquía de secciones
+
+La introducción es la sección 1 y «Propuestas» es la sección 2. Cada propuesta es una subsección numerada de 2.1 a 2.10. Sus apartados son subsubsecciones, por ejemplo 2.1.1. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. Las referencias internas a las propuestas utilizan las etiquetas `prop:1` a `prop:10`. La numeración de los 17 artículos propuestos es independiente y se conserva.

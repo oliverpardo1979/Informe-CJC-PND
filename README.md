@@ -15,10 +15,17 @@ Proyecto LaTeX para editar en Overleaf. El cuerpo reproduce el texto completo de
 - `Paper/sections/Portada.tex` contiene la portada.
 - `Paper/sections/ResumenEjecutivo.tex` contiene el resumen ejecutivo.
 - `Paper/sections/Propuestas.tex` contiene íntegramente las diez propuestas extensas, sus fuentes enlazadas y el cierre sobre su articulación.
+- `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
 
 La etiqueta «Propuestas para el PND» puede reemplazarse por un número de informe cuando se asigne. La fecha es fija y se modifica en `Paper/configuracion.tex`.
+
+## Material complementario
+
+[Matriz de políticas e iniciativas de inteligencia artificial de Jorge Orozco](material_complementario/Matriz_politicas_IA_Jorge_Orozco_2026-10-21.xlsm). Archivo Excel en formato `.xlsm`, versión consultada el 21 de octubre de 2026, con todas las filas visibles. Contiene las hojas «Matriz evidencia», «Resumen» y «Criterios», y permite consultar experiencias internacionales, instrumentos y fuentes oficiales. El archivo se conserva sin modificar su contenido.
+
+La matriz también está enlazada desde el informe, después del cuerpo de las propuestas y antes de la nota final de uso de IA.
 
 ## Formato de referencia
 

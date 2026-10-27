@@ -48,6 +48,10 @@ La inclusión de los artículos en la ley del PND requiere conexión directa e i
 
 Se reutilizaron el logo, la serie, la portada, el recuadro del resumen y los encabezados de los proyectos [Informe Actividades](https://github.com/oliverpardo1979/Informe_Actividades), [Informes departamentales](https://github.com/oliverpardo1979/Informes-departamentales), [Informe Tamaño](https://github.com/oliverpardo1979/Informe_Tamano) e [Informe Educación](https://github.com/oliverpardo1979/Informe_Educacion). El cuerpo conserva el texto de las diez propuestas extensas preparadas por Oliver Pardo.
 
+## Verificación de referentes internacionales
+
+La [verificación de referentes internacionales](material_complementario/Verificacion_referentes_internacionales.md), realizada el 27 de octubre de 2026, detalla qué componente de cada propuesta está respaldado por las fuentes primarias y qué elementos corresponden a la adaptación del CJC.
+
 ## Uso de inteligencia artificial
 
 La nota al final del informe identifica el uso de IA generativa en la búsqueda y síntesis de antecedentes, la redacción y la preparación de LaTeX. La nota no atribuye a la IA la responsabilidad por los argumentos o las propuestas.

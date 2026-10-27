@@ -2,6 +2,8 @@
 
 Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. Cada propuesta incluye su desarrollo jurídico, los referentes legales internacionales y el articulado completo correspondiente. La revisión de lectura precisa referentes, secuencia y conexiones para equipos técnicos del DNP y del Gobierno y conserva las diez medidas, sus argumentos, ejemplos y enlaces. El articulado contiene 17 textos normativos con numeración provisional, presentados en recuadros dentro de las propuestas. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
 
+La revisión de lectura del 27 de octubre adapta las explicaciones para un director o subdirector del DNP con experiencia en política pública, sin conocimientos especializados de IA. Presenta los términos antes de utilizarlos y distingue los instrumentos que podrían confundirse. Los textos del articulado se conservan sin cambios.
+
 ## Edición en Overleaf
 
 1. Sincronizar este repositorio desde la integración GitHub del proyecto de Overleaf o importar su ZIP como un proyecto nuevo.

@@ -1,6 +1,6 @@
 # Informe del CJC sobre propuestas para el PND
 
-Proyecto LaTeX para editar en Overleaf. El cuerpo reproduce el texto completo de las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. La conversión conserva párrafos, instrumentos, ejemplos, condiciones y enlaces, sin resumir ni reescribir el contenido. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
+Proyecto LaTeX para editar en Overleaf. El cuerpo conserva el texto completo de las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. Cada propuesta incluye ahora su desarrollo jurídico, los referentes legales internacionales y el articulado completo correspondiente. Los párrafos y enlaces anteriores se mantienen. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
 
 ## Edición en Overleaf
 
@@ -14,12 +14,9 @@ Proyecto LaTeX para editar en Overleaf. El cuerpo reproduce el texto completo de
 - `Paper/configuracion.tex` contiene formato, título, autoría, fecha y etiqueta de edición.
 - `Paper/sections/Portada.tex` contiene la portada.
 - `Paper/sections/ResumenEjecutivo.tex` contiene el resumen ejecutivo.
-- `Paper/sections/Propuestas.tex` presenta las diez propuestas extensas como una enumeración del 1 al 10, con su contenido íntegro, sus fuentes enlazadas y el cierre sobre su articulación.
+- `Paper/sections/Propuestas.tex` contiene las diez propuestas extensas, enumeradas del 1 al 10. Dentro de cada una están el texto anterior, el fundamento jurídico y los artículos completos. También incluye el cierre sobre su articulación y las condiciones generales de instrumentación.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
-- `anexo_juridico.tex` compila por separado el anexo de instrumentos jurídicos, con el mismo formato del CJC.
-- `Paper/sections/AnexoJuridico.tex` contiene el texto editable del anexo jurídico, sus fuentes y los borradores de articulado.
-- `material_complementario/Anexo_juridico_articulado.md` contiene el mismo anexo en un formato de texto editable y consultable desde GitHub.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
 
 La etiqueta «Propuestas para el PND» puede reemplazarse por un número de informe cuando se asigne. La fecha es fija y se modifica en `Paper/configuracion.tex`.
@@ -30,13 +27,20 @@ La etiqueta «Propuestas para el PND» puede reemplazarse por un número de info
 
 La matriz también está enlazada desde el informe, después del cuerpo de las propuestas y antes de la nota final de uso de IA.
 
-## Anexo jurídico y articulado
+## Dónde editar títulos, subtítulos y artículos
 
-El [anexo jurídico](material_complementario/Anexo_juridico_articulado.md), con corte de consulta del 26 de octubre de 2026, examina las leyes de los PND de 2015, 2019 y 2023, las normas sectoriales colombianas y los referentes legales de Reino Unido, Singapur, Canadá, Estados Unidos y la Unión Europea. Distingue las medidas que pueden ejecutarse mediante las Bases y las facultades existentes de las que necesitan una reforma legal.
+- Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
+- Títulos de propuestas, en `Paper/sections/Propuestas.tex`, líneas que comienzan con `\item \textbf{...}`.
+- Subtítulos y artículos completos, en ese mismo archivo, dentro de cada propuesta. Buscar «Desarrollo jurídico y articulado propuesto» o «Artículo P1», «Artículo P2» y así sucesivamente.
+- Los ocho artículos F1 a F8 de reforma del ahorro pensional están completos dentro de la propuesta 10.
 
-Incluye cinco artículos candidatos para la ley del PND y ocho artículos de trabajo para una reforma pensional separada. Los artículos P no se presentan como autorizaciones necesariamente requeridas. Su inclusión depende de su conexión con programas específicos de las próximas Bases y del plan de inversiones. Los artículos F necesitan actualización de concordancias al radicar, revisión de derechos, efectos fiscales y actuariales y reglas de transición. No se fija un nuevo capital mínimo sin estudio de suficiencia.
+## Desarrollo jurídico dentro de las propuestas
 
-Para compilar ese documento en Overleaf, elegir `anexo_juridico.tex` como documento principal y pdfLaTeX. Para regresar al informe, seleccionar `main.tex`. El cuerpo íntegro de las diez propuestas se conserva en `Propuestas.tex`. La nota de uso de IA está al final de ambos documentos.
+El informe incorpora, con corte de consulta del 26 de octubre de 2026, la revisión de los PND de 2015, 2019 y 2023, las normas sectoriales colombianas y los referentes legales de Reino Unido, Singapur, Canadá, Estados Unidos y la Unión Europea. Ese contenido se distribuye dentro de las diez propuestas y se compila con `main.tex`. No requiere seleccionar otro documento ni consultar un anexo para leer el articulado.
+
+Cada propuesta incluye un artículo candidato P1 a P10 para el PND. Cuando las facultades vigentes y las Bases sean suficientes, el texto indica esa alternativa. La propuesta 10 incluye además los ocho artículos F1 a F8 para una reforma pensional cuyo trámite legislativo se plantea por separado de la ley del Plan. Su presentación editorial dentro de la propuesta no supone que todos deban aprobarse como artículos del PND.
+
+Los artículos P requieren conexión con programas específicos de las próximas Bases y del plan de inversiones. Los artículos F necesitan actualización de concordancias al radicar, revisión de derechos, efectos fiscales y actuariales y reglas de transición. No se fija un nuevo capital mínimo sin estudio de suficiencia. La nota de uso de IA permanece al final del informe.
 
 ## Formato de referencia
 

@@ -1,6 +1,6 @@
 # Informe del CJC sobre propuestas para el PND
 
-Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. Cada propuesta incluye su desarrollo jurídico, los referentes legales internacionales y el articulado completo correspondiente. La revisión de lectura del 26 de octubre precisa referentes, secuencia y conexiones para equipos técnicos del DNP y del Gobierno. Conserva las diez medidas, sus argumentos, ejemplos y enlaces. Los 18 bloques de articulado y los diez textos para las Bases se mantuvieron sin cambios durante esa revisión. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
+Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. Cada propuesta incluye su desarrollo jurídico, los referentes legales internacionales y el articulado completo correspondiente. La revisión de lectura precisa referentes, secuencia y conexiones para equipos técnicos del DNP y del Gobierno y conserva las diez medidas, sus argumentos, ejemplos y enlaces. El articulado contiene 17 textos normativos con numeración provisional, presentados en recuadros dentro de las propuestas. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
 
 ## Edición en Overleaf
 
@@ -33,16 +33,16 @@ La matriz también está enlazada desde el informe, después del cuerpo de las p
 - Resumen ejecutivo e introducción, en `Paper/sections/ResumenEjecutivo.tex` y `Paper/sections/Introduccion.tex`, respectivamente.
 - Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
 - Títulos de propuestas, en `Paper/sections/Propuestas.tex`, líneas que comienzan con `\item \textbf{...}`.
-- Subtítulos y artículos completos, en ese mismo archivo, dentro de cada propuesta. Buscar «Desarrollo jurídico y articulado propuesto» o «Artículo P1», «Artículo P2» y así sucesivamente.
-- Los ocho artículos F1 a F8 de reforma del ahorro pensional están completos dentro de la propuesta 10.
+- Subtítulos y artículos completos, en ese mismo archivo, dentro de cada propuesta. Buscar «Texto propuesto para la ley del Plan Nacional de Desarrollo» o «Artículo 1», «Artículo 2» y así sucesivamente.
+- Los artículos 10 a 17 modifican directamente el régimen del ahorro pensional y están completos dentro de la propuesta 10.
 
 ## Desarrollo jurídico dentro de las propuestas
 
 El informe incorpora, con corte de consulta del 26 de octubre de 2026, la revisión de los PND de 2015, 2019 y 2023, las normas sectoriales colombianas y los referentes legales de Reino Unido, Singapur, Canadá, Estados Unidos y la Unión Europea. Ese contenido se distribuye dentro de las diez propuestas y se compila con `main.tex`. No requiere seleccionar otro documento ni consultar un anexo para leer el articulado.
 
-Cada propuesta incluye un artículo candidato P1 a P10 para el PND. Cuando las facultades vigentes y las Bases sean suficientes, el texto indica esa alternativa. La propuesta 10 incluye además los ocho artículos F1 a F8 para una reforma pensional cuyo trámite legislativo se plantea por separado de la ley del Plan. Su presentación editorial dentro de la propuesta no supone que todos deban aprobarse como artículos del PND.
+Los artículos 1 a 9 desarrollan las primeras nueve propuestas. Los artículos 10 a 17 corresponden a la décima propuesta y modifican directamente las disposiciones legales, con reglas de transición. Se eliminó el artículo que se limitaba a ordenar la presentación posterior de otro proyecto de ley. Los recuadros contienen únicamente el texto normativo. La justificación, los referentes y las condiciones para radicar están fuera de ellos. La numeración debe ajustarse a la que adopte el proyecto de ley del PND.
 
-Los artículos P requieren conexión con programas específicos de las próximas Bases y del plan de inversiones. Los artículos F necesitan actualización de concordancias al radicar, revisión de derechos, efectos fiscales y actuariales y reglas de transición. No se fija un nuevo capital mínimo sin estudio de suficiencia. La nota de uso de IA permanece al final del informe.
+La inclusión de los artículos en la ley del PND requiere conexión directa e inmediata con programas específicos de las Bases y del plan de inversiones. El bloque pensional exige una justificación especial por su carácter permanente. Si no se demuestra esa conexión, deberá tramitarse por la vía legislativa ordinaria. También requiere actualizar concordancias al radicar, revisar derechos y evaluar efectos fiscales y actuariales. El artículo 15 sustituye el piso legal por una regla de determinación técnica del capital, sin inventar un monto que no ha sido estudiado. La nota de uso de IA permanece al final del informe.
 
 ## Formato de referencia
 

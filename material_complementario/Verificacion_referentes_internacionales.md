@@ -56,7 +56,7 @@ Estos referentes respaldan formación por tareas y colaboración profesional. Ex
 
 El [AI Compute Access Fund canadiense](https://ised-isde.canada.ca/site/ised/en/canadian-sovereign-ai-compute-strategy/ai-compute-access-fund/program-guide-ai-compute-access-fund) financia servicios de nube para proyectos empresariales de IA y admite contribuciones de distinto carácter reembolsable. El [anuncio de 44 proyectos](https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/government-of-canada-supports-44-canadian-companies-using-ai-to-transform-industries-and-create-jobs.html) acredita asignación de apoyos.
 
-Se distinguieron el cupo británico y la contribución canadiense para servicios. Los porcentajes, umbrales y preferencias por proveedores nacionales no se trasladan automáticamente. El fondo canadiense es administrado por ISED. La ley del NRC citada en el informe es otro antecedente institucional, no la regulación de ese fondo.
+Se distinguieron el cupo británico y la contribución canadiense para servicios. Los porcentajes, umbrales y preferencias por proveedores nacionales no se trasladan automáticamente. El fondo canadiense es administrado por ISED. La revisión funcional sustituyó, en el apartado de instrumentación de cómputo, la referencia duplicada a la ley del NRC por la guía del fondo. La ley del NRC se conserva en la propuesta de colaboración entre desarrolladores y empresas, donde respalda investigación industrial e innovación.
 
 ## 2.8. Financiación mediante capital y asignación del riesgo
 
@@ -76,7 +76,7 @@ La [guía japonesa, versión 2.0](https://www.digital.go.jp/en/news/decb64eb-f26
 
 **Correspondencia directa para coordinación y avance por pruebas.** La [respuesta británica de enero de 2025](https://www.gov.uk/government/publications/ai-opportunities-action-plan-government-response/ai-opportunities-action-plan-government-response) confirma una unidad de seguimiento y la secuencia de identificar usos, probar y ampliar. Se incorporó esa secuencia para vincular mejor el referente con la priorización y continuidad de proyectos.
 
-El diseño de una cartera del cuatrienio, sus fichas, costos y distribución de responsabilidades entre DNP, MinTIC y entidades sectoriales corresponde al CJC. El anuncio británico no demuestra que todas las medidas se hayan ejecutado o que generaran un impacto determinado.
+La revisión funcional hizo explícita esta correspondencia también en el apartado de instrumentación, que repetía el fundamento sobre servicios comunes de la propuesta 2.9. El diseño de una cartera del cuatrienio, sus fichas, costos y distribución de responsabilidades entre DNP, MinTIC y entidades sectoriales corresponde al CJC. El anuncio británico no demuestra que todas las medidas se hayan ejecutado o que generaran un impacto determinado.
 
 ## Alcance de las conclusiones
 

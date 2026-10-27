@@ -12,10 +12,11 @@ Proyecto LaTeX para editar en Overleaf. Contiene una versión abreviada de las d
 
 - `main.tex` reúne las partes del informe.
 - `Paper/configuracion.tex` contiene formato, título, autoría, fecha y etiqueta de edición.
-- `Paper/sections/Portada.tex` contiene la portada y la nota de uso de IA.
+- `Paper/sections/Portada.tex` contiene la portada.
 - `Paper/sections/ResumenEjecutivo.tex` contiene el resumen ejecutivo.
 - `Paper/sections/Propuestas.tex` contiene las diez propuestas y los criterios de evaluación.
 - `Paper/sections/Referencias.tex` contiene las fuentes enlazadas.
+- `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
 
 La etiqueta «Propuestas para el PND» puede reemplazarse por un número de informe cuando se asigne. La fecha es fija y se modifica en `Paper/configuracion.tex`.
@@ -26,4 +27,4 @@ Se reutilizaron el logo, la serie, la portada, el recuadro del resumen y los enc
 
 ## Uso de inteligencia artificial
 
-La portada identifica el uso de IA generativa en la búsqueda y síntesis de antecedentes, la redacción y la preparación de LaTeX. La nota no atribuye a la IA la responsabilidad por los argumentos o las propuestas.
+La nota al final del informe identifica el uso de IA generativa en la búsqueda y síntesis de antecedentes, la redacción y la preparación de LaTeX. La nota no atribuye a la IA la responsabilidad por los argumentos o las propuestas.

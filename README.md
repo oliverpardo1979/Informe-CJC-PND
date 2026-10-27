@@ -14,7 +14,7 @@ Proyecto LaTeX para editar en Overleaf. El cuerpo reproduce el texto completo de
 - `Paper/configuracion.tex` contiene formato, título, autoría, fecha y etiqueta de edición.
 - `Paper/sections/Portada.tex` contiene la portada.
 - `Paper/sections/ResumenEjecutivo.tex` contiene el resumen ejecutivo.
-- `Paper/sections/Propuestas.tex` contiene íntegramente las diez propuestas extensas, sus fuentes enlazadas y el cierre sobre su articulación.
+- `Paper/sections/Propuestas.tex` presenta las diez propuestas extensas como una enumeración del 1 al 10, con su contenido íntegro, sus fuentes enlazadas y el cierre sobre su articulación.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.

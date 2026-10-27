@@ -13,7 +13,8 @@ Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas
 - `main.tex` reúne las partes del informe.
 - `Paper/configuracion.tex` contiene formato, título, autoría, fecha y etiqueta de edición.
 - `Paper/sections/Portada.tex` contiene la portada.
-- `Paper/sections/ResumenEjecutivo.tex` contiene el resumen ejecutivo.
+- `Paper/sections/ResumenEjecutivo.tex` presenta las diez propuestas en negrilla, con una frase por propuesta.
+- `Paper/sections/Introduccion.tex` contiene la motivación y la justificación del informe, con un párrafo breve por propuesta.
 - `Paper/sections/Propuestas.tex` contiene las diez propuestas extensas, enumeradas del 1 al 10. Dentro de cada una están el texto anterior, el fundamento jurídico y los artículos completos. También incluye el cierre sobre su articulación y las condiciones generales de instrumentación.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
@@ -29,6 +30,7 @@ La matriz también está enlazada desde el informe, después del cuerpo de las p
 
 ## Dónde editar títulos, subtítulos y artículos
 
+- Resumen ejecutivo e introducción, en `Paper/sections/ResumenEjecutivo.tex` y `Paper/sections/Introduccion.tex`, respectivamente.
 - Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
 - Títulos de propuestas, en `Paper/sections/Propuestas.tex`, líneas que comienzan con `\item \textbf{...}`.
 - Subtítulos y artículos completos, en ese mismo archivo, dentro de cada propuesta. Buscar «Desarrollo jurídico y articulado propuesto» o «Artículo P1», «Artículo P2» y así sucesivamente.

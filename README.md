@@ -34,15 +34,15 @@ La matriz también está enlazada desde el informe, después del cuerpo de las p
 - Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
 - Títulos de propuestas, en `Paper/sections/Propuestas.tex`, líneas que comienzan con `\item \textbf{...}`.
 - Subtítulos y artículos completos, en ese mismo archivo, dentro de cada propuesta. Buscar «Texto propuesto para la ley del Plan Nacional de Desarrollo» o «Artículo 1», «Artículo 2» y así sucesivamente.
-- Los artículos 10 a 17 modifican directamente el régimen del ahorro pensional y están completos dentro de la propuesta 10.
+- Los artículos 8 a 15 modifican directamente el régimen del ahorro pensional y están completos dentro de la propuesta 8.
 
 ## Desarrollo jurídico dentro de las propuestas
 
 El informe incorpora, con corte de consulta del 26 de octubre de 2026, la revisión de los PND de 2015, 2019 y 2023, las normas sectoriales colombianas y los referentes legales de Reino Unido, Singapur, Canadá, Estados Unidos y la Unión Europea. Ese contenido se distribuye dentro de las diez propuestas y se compila con `main.tex`. No requiere seleccionar otro documento ni consultar un anexo para leer el articulado.
 
-Los artículos 1 a 9 desarrollan las primeras nueve propuestas. Los artículos 10 a 17 corresponden a la décima propuesta y modifican directamente las disposiciones legales, con reglas de transición. Se eliminó el artículo que se limitaba a ordenar la presentación posterior de otro proyecto de ley. Los recuadros contienen únicamente el texto normativo. La justificación, los referentes y las condiciones para radicar están fuera de ellos. La numeración debe ajustarse a la que adopte el proyecto de ley del PND.
+Los artículos 1 a 7 desarrollan las primeras siete propuestas y los artículos 16 y 17 corresponden a la novena y la décima. Los artículos 8 a 15 corresponden a la octava propuesta y modifican directamente las disposiciones legales, con reglas de transición. Se eliminó el artículo que se limitaba a ordenar la presentación posterior de otro proyecto de ley. Los recuadros contienen únicamente el texto normativo. La justificación, los referentes y las condiciones para radicar están fuera de ellos. La numeración debe ajustarse a la que adopte el proyecto de ley del PND.
 
-La inclusión de los artículos en la ley del PND requiere conexión directa e inmediata con programas específicos de las Bases y del plan de inversiones. El bloque pensional exige una justificación especial por su carácter permanente. Si no se demuestra esa conexión, deberá tramitarse por la vía legislativa ordinaria. También requiere actualizar concordancias al radicar, revisar derechos y evaluar efectos fiscales y actuariales. El artículo 15 sustituye el piso legal por una regla de determinación técnica del capital, sin inventar un monto que no ha sido estudiado. La nota de uso de IA permanece al final del informe.
+La inclusión de los artículos en la ley del PND requiere conexión directa e inmediata con programas específicos de las Bases y del plan de inversiones. El bloque pensional exige una justificación especial por su carácter permanente. Si no se demuestra esa conexión, deberá tramitarse por la vía legislativa ordinaria. También requiere actualizar concordancias al radicar, revisar derechos y evaluar efectos fiscales y actuariales. El artículo 13 sustituye el piso legal por una regla de determinación técnica del capital, sin inventar un monto que no ha sido estudiado. La nota de uso de IA permanece al final del informe.
 
 ## Formato de referencia
 

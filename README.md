@@ -15,7 +15,7 @@ Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas
 - `Paper/sections/Portada.tex` contiene la portada.
 - `Paper/sections/ResumenEjecutivo.tex` presenta las diez propuestas en negrilla, con una frase por propuesta.
 - `Paper/sections/Introduccion.tex` contiene la sección 1, «Introducción», con la motivación y la justificación del informe y un párrafo breve por propuesta.
-- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con las diez propuestas extensas como subsecciones 2.1 a 2.10 y sus apartados como subsubsecciones sin numeración. Dentro de cada una están el texto anterior, el fundamento jurídico y los artículos completos. También incluye el cierre sobre su articulación y las condiciones generales de instrumentación.
+- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con las diez propuestas extensas como subsecciones 2.1 a 2.10 y sus apartados como subsubsecciones sin numeración. Cada una contiene la explicación de la medida, el fundamento jurídico y los artículos completos. El cierre reúne las condiciones de ejecución.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
@@ -54,7 +54,7 @@ La [verificación de referentes internacionales](material_complementario/Verific
 
 ## Uso de inteligencia artificial
 
-La nota al final del informe identifica el uso de IA generativa en la búsqueda y síntesis de antecedentes, la redacción y la preparación de LaTeX. La nota no atribuye a la IA la responsabilidad por los argumentos o las propuestas.
+La nota al final del informe identifica el uso de IA generativa en la búsqueda de antecedentes y la redacción. La autoría asume la responsabilidad por el contenido.
 
 ## Jerarquía de secciones
 

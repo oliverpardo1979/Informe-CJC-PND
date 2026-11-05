@@ -1,8 +1,8 @@
 # Informe del CJC sobre propuestas para el PND
 
-Proyecto LaTeX para editar en Overleaf. La versión visible contiene cuatro propuestas, correspondientes a las originales 1, 2, 4 y 10. Sus artículos se numeran consecutivamente del 1 al 4. La primera apoya la adopción de herramientas disponibles. La segunda sostiene alianzas de investigación con financiación empresarial. La tercera cofinancia desarrollo y validación de soluciones replicables. La cuarta propone eliminar trámites y funciones innecesarios, reorganizar dependencias, plantas y contratación, y medir el ahorro administrativo neto.
+Proyecto LaTeX para editar en Overleaf. La versión visible contiene cinco propuestas, correspondientes a las originales 1, 2, 4 y 10 y una quinta propuesta nueva sobre financiación empresarial. Sus artículos para el PND se numeran consecutivamente del 1 al 5. La primera apoya la adopción de herramientas disponibles. La segunda sostiene alianzas de investigación con financiación empresarial. La tercera cofinancia desarrollo y validación de soluciones replicables. La cuarta propone eliminar trámites y funciones innecesarios, reorganizar dependencias, plantas y contratación, y medir el ahorro administrativo neto. La quinta combina apertura del mercado de valores a las SAS, acceso acreditado a datos financieros y requisitos proporcionales a los riesgos. Distingue las normas ya adoptadas de los cambios propuestos. La reforma societaria se formula como artículo de una ley ordinaria complementaria, dentro de la quinta propuesta, debido al antecedente de la Sentencia C-038/25.
 
-Las propuestas originales 3, 5, 6, 7, 8 y 9, con todo su texto, enlaces y articulado, están comentadas línea por línea y no aparecen en el PDF. Buscar `INICIO PROPUESTA SILENCIADA` en `Paper/sections/Propuestas.tex`. Sus entradas del resumen y la introducción también están comentadas. Para recuperarlas, quitar el primer `% ` dentro del bloque correspondiente y revisar la numeración de artículos. La versión anterior de la propuesta 10 se conserva comentada junto a la nueva. Las etiquetas internas `prop:1`, `prop:2`, `prop:4` y `prop:10` conservan sus identificadores originales, mientras el PDF numera automáticamente las subsecciones de 2.1 a 2.4.
+Las propuestas originales 3, 5, 6, 7, 8 y 9, con todo su texto, enlaces y articulado, están comentadas línea por línea y no aparecen en el PDF. Buscar `INICIO PROPUESTA SILENCIADA` en `Paper/sections/Propuestas.tex`. Sus entradas del resumen y la introducción también están comentadas. Para recuperarlas, quitar el primer `% ` dentro del bloque correspondiente y revisar la numeración de artículos. La versión anterior de la propuesta 10 se conserva comentada junto a la nueva. Las etiquetas internas `prop:1`, `prop:2`, `prop:4` y `prop:10` conservan sus identificadores originales. La nueva propuesta usa `prop:11`. El PDF numera automáticamente las subsecciones de 2.1 a 2.5.
 
 La introducción conecta el informe con Pardo y Orozco (2026), *Inteligencia Artificial y Empleo en Colombia*. Incluye las cuatro actividades con mayor proporción de ocupados en ocupaciones de alto potencial relativo de automatización, excluyendo organizaciones extraterritoriales. La fuente, el denominador y los límites del indicador acompañan el cuadro. El informe sigue siendo la versión extensa. La versión de máximo tres páginas para la facultad requiere una síntesis posterior.
 
@@ -12,16 +12,17 @@ La revisión de lectura del 27 de octubre adapta las explicaciones para un direc
 
 1. Sincronizar este repositorio desde la integración GitHub del proyecto de Overleaf o importar su ZIP como un proyecto nuevo.
 2. Seleccionar `main.tex` como documento principal y **pdfLaTeX** como compilador.
-3. Compilar. No se requiere BibTeX, archivos externos ni ejecución de scripts. Las referencias se conservan como enlaces dentro del texto original.
+3. Compilar. No se requiere BibTeX, archivos externos ni ejecución de scripts. Las citas de programas e informes enlazan a referencias completas en `Paper/sections/Referencias.tex`, que conserva los enlaces originales a las fuentes. Las normas mantienen sus enlaces directos y el informe de IA se identifica en el material complementario.
 
 ## Archivos
 
 - `main.tex` reúne las partes del informe.
 - `Paper/configuracion.tex` contiene formato, título, autoría, fecha y etiqueta de edición.
 - `Paper/sections/Portada.tex` contiene la portada.
-- `Paper/sections/ResumenEjecutivo.tex` presenta las cuatro propuestas visibles en negrilla, con una breve explicación por propuesta.
+- `Paper/sections/ResumenEjecutivo.tex` presenta las cinco propuestas visibles en negrilla, con una breve explicación por propuesta.
 - `Paper/sections/Introduccion.tex` contiene la sección 1, «Introducción», con la motivación y la justificación del informe y un párrafo breve por propuesta.
-- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con cuatro subsecciones visibles, los apartados sin numeración, el articulado y los textos comentados de las propuestas silenciadas. El cierre reúne las condiciones de ejecución.
+- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con cinco subsecciones visibles, los apartados sin numeración, el articulado y los textos comentados de las propuestas silenciadas. El cierre reúne las condiciones de ejecución.
+- `Paper/sections/Referencias.tex` contiene las fuentes no normativas citadas, con autor, fecha, título y enlace.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
@@ -64,4 +65,4 @@ La nota al final del informe identifica el uso de IA generativa en la búsqueda 
 
 ## Jerarquía de secciones
 
-La introducción es la sección 1 y «Propuestas» es la sección 2. Las cuatro propuestas visibles son subsecciones de 2.1 a 2.4. Sus apartados son subsubsecciones sin numeración. Cada propuesta comienza con «Qué proponemos», que reúne el instrumento y la explicación de la medida. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. La nota de uso de IA permanece al final.
+La introducción es la sección 1 y «Propuestas» es la sección 2. Las cinco propuestas visibles son subsecciones de 2.1 a 2.5. Sus apartados son subsubsecciones sin numeración. Cada propuesta comienza con «Qué proponemos», que reúne el instrumento y la explicación de la medida. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. La nota de uso de IA permanece al final.

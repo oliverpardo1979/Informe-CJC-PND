@@ -1,6 +1,10 @@
 # Informe del CJC sobre propuestas para el PND
 
-Proyecto LaTeX para editar en Overleaf. El cuerpo desarrolla las diez propuestas extensas preparadas el 23 de octubre de 2026 sobre productividad, inteligencia artificial, investigación y financiación empresarial. Cada propuesta incluye su desarrollo jurídico, los referentes legales internacionales y el articulado completo correspondiente. La revisión de lectura precisa referentes, secuencia y conexiones para equipos técnicos del DNP y del Gobierno y conserva las diez medidas, sus argumentos, ejemplos y enlaces. El articulado contiene 17 textos normativos con numeración provisional, presentados en recuadros dentro de las propuestas. La portada y el resumen ejecutivo utilizan el formato del CJC. La selección de cinco para el documento de máximo tres páginas de la facultad se realiza por separado.
+Proyecto LaTeX para editar en Overleaf. La versión visible contiene cuatro propuestas, correspondientes a las originales 1, 2, 4 y 10. Sus artículos se numeran consecutivamente del 1 al 4. La primera apoya la adopción de herramientas disponibles. La segunda sostiene alianzas de investigación con financiación empresarial. La tercera cofinancia desarrollo y validación de soluciones replicables. La cuarta propone eliminar trámites y funciones innecesarios, reorganizar dependencias, plantas y contratación, y medir el ahorro administrativo neto.
+
+Las propuestas originales 3, 5, 6, 7, 8 y 9, con todo su texto, enlaces y articulado, están comentadas línea por línea y no aparecen en el PDF. Buscar `INICIO PROPUESTA SILENCIADA` en `Paper/sections/Propuestas.tex`. Sus entradas del resumen y la introducción también están comentadas. Para recuperarlas, quitar el primer `% ` dentro del bloque correspondiente y revisar la numeración de artículos. La versión anterior de la propuesta 10 se conserva comentada junto a la nueva. Las etiquetas internas `prop:1`, `prop:2`, `prop:4` y `prop:10` conservan sus identificadores originales, mientras el PDF numera automáticamente las subsecciones de 2.1 a 2.4.
+
+La introducción conecta el informe con Pardo y Orozco (2026), *Inteligencia Artificial y Empleo en Colombia*. Incluye las cuatro actividades con mayor proporción de ocupados en ocupaciones de alto potencial relativo de automatización, excluyendo organizaciones extraterritoriales. La fuente, el denominador y los límites del indicador acompañan el cuadro. El informe sigue siendo la versión extensa. La versión de máximo tres páginas para la facultad requiere una síntesis posterior.
 
 La revisión de lectura del 27 de octubre adapta las explicaciones para un director o subdirector del DNP con experiencia en política pública, sin conocimientos especializados de IA. Presenta los términos antes de utilizarlos y distingue los instrumentos que podrían confundirse. Los textos del articulado se conservan sin cambios.
 
@@ -15,9 +19,9 @@ La revisión de lectura del 27 de octubre adapta las explicaciones para un direc
 - `main.tex` reúne las partes del informe.
 - `Paper/configuracion.tex` contiene formato, título, autoría, fecha y etiqueta de edición.
 - `Paper/sections/Portada.tex` contiene la portada.
-- `Paper/sections/ResumenEjecutivo.tex` presenta las diez propuestas en negrilla, con una frase por propuesta.
+- `Paper/sections/ResumenEjecutivo.tex` presenta las cuatro propuestas visibles en negrilla, con una breve explicación por propuesta.
 - `Paper/sections/Introduccion.tex` contiene la sección 1, «Introducción», con la motivación y la justificación del informe y un párrafo breve por propuesta.
-- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con las diez propuestas extensas como subsecciones 2.1 a 2.10 y sus apartados como subsubsecciones sin numeración. Cada una contiene la explicación de la medida, el fundamento jurídico y los artículos completos. El cierre reúne las condiciones de ejecución.
+- `Paper/sections/Propuestas.tex` contiene la sección 2, «Propuestas», con cuatro subsecciones visibles, los apartados sin numeración, el articulado y los textos comentados de las propuestas silenciadas. El cierre reúne las condiciones de ejecución.
 - `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
@@ -36,11 +40,11 @@ La matriz también está enlazada desde el informe, después del cuerpo de las p
 - Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
 - Títulos de propuestas, en `Paper/sections/Propuestas.tex`, comandos `\subsection{...}`.
 - Subtítulos, en los comandos `\subsubsection{...}` de ese mismo archivo. Los artículos completos permanecen en recuadros dentro de cada propuesta. Buscar «Articulado propuesto» o «Artículo 1», «Artículo 2» y así sucesivamente.
-- Los artículos 8 a 15 modifican directamente el régimen del ahorro pensional y están completos dentro de la propuesta 8.
+- Los artículos de la reforma pensional se conservan completos, comentados dentro de la propuesta original 8.
 
-## Desarrollo jurídico dentro de las propuestas
+## Desarrollo jurídico de la versión original de diez propuestas
 
-El informe incorpora, con corte de consulta del 26 de octubre de 2026, la revisión de los PND de 2015, 2019 y 2023, las normas sectoriales colombianas y los referentes legales de Reino Unido, Singapur, Canadá, Estados Unidos y la Unión Europea. Ese contenido se distribuye dentro de las diez propuestas y se compila con `main.tex`. No requiere seleccionar otro documento ni consultar un anexo para leer el articulado.
+La versión original incorporó, con corte de consulta del 26 de octubre de 2026, la revisión de los PND de 2015, 2019 y 2023, las normas sectoriales colombianas y los referentes legales de Reino Unido, Singapur, Canadá, Estados Unidos y la Unión Europea. Los párrafos siguientes describen esa versión y su numeración original. La selección visible actual y la forma de recuperar los textos comentados se explican al comienzo de este archivo.
 
 Los artículos 1 a 7 desarrollan las primeras siete propuestas y los artículos 16 y 17 corresponden a la novena y la décima. Los artículos 8 a 15 corresponden a la octava propuesta y modifican directamente las disposiciones legales, con reglas de transición. Se eliminó el artículo que se limitaba a ordenar la presentación posterior de otro proyecto de ley. Los recuadros contienen únicamente el texto normativo. La justificación, los referentes y las condiciones para radicar están fuera de ellos. La numeración debe ajustarse a la que adopte el proyecto de ley del PND.
 
@@ -60,4 +64,4 @@ La nota al final del informe identifica el uso de IA generativa en la búsqueda 
 
 ## Jerarquía de secciones
 
-La introducción es la sección 1 y «Propuestas» es la sección 2. Cada propuesta es una subsección numerada de 2.1 a 2.10. Sus apartados son subsubsecciones sin numeración. Cada propuesta comienza con «Qué proponemos», que reúne el instrumento y la explicación de la medida. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. Las referencias internas a las propuestas utilizan las etiquetas `prop:1` a `prop:10`. La numeración de los 17 artículos propuestos es independiente y se conserva.
+La introducción es la sección 1 y «Propuestas» es la sección 2. Las cuatro propuestas visibles son subsecciones de 2.1 a 2.4. Sus apartados son subsubsecciones sin numeración. Cada propuesta comienza con «Qué proponemos», que reúne el instrumento y la explicación de la medida. El cierre es la sección 3. El resumen ejecutivo y el material complementario conservan títulos sin numerar. La nota de uso de IA permanece al final.

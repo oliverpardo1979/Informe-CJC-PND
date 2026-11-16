@@ -1,6 +1,6 @@
 # Propuestas del CJC frente a las Bases del PND 2026–2030
 
-Revisión del 16 de noviembre de 2026. Fuente: [Bases del PND presentadas el 13 de noviembre de 2026](https://colaboracion.dnp.gov.co/CDT/Prensa/Publicaciones/bases-pnd-2026-2030-2026-11-13.pdf), 496 páginas. Las páginas indicadas corresponden al archivo PDF. El informe mantiene seis propuestas.
+Revisión del 16 de noviembre de 2026. Fuente: [Bases del PND presentadas el 13 de noviembre de 2026](https://colaboracion.dnp.gov.co/CDT/Prensa/Publicaciones/bases-pnd-2026-2030-2026-11-13.pdf), 496 páginas. Las páginas indicadas corresponden al archivo PDF. El informe mantiene seis propuestas como secciones, con Antecedentes, Descripción de la propuesta, Justificación y Articulado. Una breve nota reemplaza la introducción.
 
 ## Criterio de esta reformulación
 

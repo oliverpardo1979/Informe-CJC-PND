@@ -9,7 +9,9 @@
 \usepackage{setspace}
 \usepackage{titlesec}
 \usepackage{fancyhdr}
+\usepackage{xurl}
 \usepackage{hyperref}
+\urlstyle{same}
 \usepackage{enumitem}
 \setstretch{1.15}
 \setlength{\parindent}{0pt}
@@ -42,3 +44,13 @@
 \setlength{\headheight}{14pt}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\refname}{Referencias}
+
+
+% APA 7: doble espacio, sin espacio adicional entre entradas y sangría francesa de 0,5 pulgadas.
+\newenvironment{apareferences}{%
+  \begingroup\setstretch{2}\setlength{\parskip}{0pt}\setlength{\parindent}{0pt}%
+  \setlength{\emergencystretch}{3em}\sloppy
+}{\par\endgroup}
+\newcommand{\aparef}[2]{%
+  \par\noindent\hangindent=0.5in\hangafter=1\phantomsection\label{#1}#2\par
+}

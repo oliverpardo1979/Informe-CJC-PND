@@ -10,7 +10,7 @@ Los artículos 1 y 2 desarrollan la asistencia técnica y las convocatorias para
 
 Las propuestas originales 3, 5, 6, 7, 8, 9 y 10, y la propuesta salarial fusionada 13+15, con todo su texto, enlaces y articulado, están comentadas línea por línea y no aparecen en el PDF. Buscar `INICIO PROPUESTA SILENCIADA` en `Paper/sections/Propuestas.tex`. Sus entradas del resumen y la introducción también están comentadas. Para recuperarlas, quitar el primer `% ` dentro del bloque correspondiente y revisar la numeración de artículos. Se conservan comentadas tanto la versión anterior de la propuesta 10 como su reformulación de eficiencia del Estado. Las etiquetas internas conservan sus identificadores originales. Las propuestas activas usan, en el orden del informe, `prop:1`, `prop:2`, `prop:12`, `prop:11` y `prop:14`. La etiqueta `prop:4` es un alias de `prop:1` en la propuesta tecnológica. Las etiquetas `prop:13` y `prop:15` se conservan comentadas en la propuesta salarial fusionada. El PDF numera las propuestas como secciones 1 a 5. Cada una contiene cuatro subsecciones numeradas, de Antecedentes a Articulado.
 
-Una breve nota reemplaza la introducción. Los antecedentes de la primera propuesta presentan los compromisos de las Bases y los programas colombianos e internacionales pertinentes. La referencia a Pardo y Orozco (2026), *Inteligencia Artificial y Empleo en Colombia*, se conserva en el material complementario, sin reproducir su cuadro de exposición por actividad económica. El informe sigue siendo la versión extensa. La versión para la facultad requiere seleccionar como máximo cinco propuestas y sintetizarlas en no más de tres páginas.
+Una breve nota reemplaza la introducción. Los antecedentes de la primera propuesta presentan los compromisos de las Bases y los programas colombianos e internacionales pertinentes. La referencia a Pardo y Orozco (2026), *Inteligencia Artificial y Empleo en Colombia*, se conserva en la bibliografía, sin reproducir su cuadro de exposición por actividad económica. El informe sigue siendo la versión extensa. La versión para la facultad requiere seleccionar como máximo cinco propuestas y sintetizarlas en no más de tres páginas.
 
 La revisión de lectura del 27 de octubre adapta las explicaciones para un director o subdirector del DNP con experiencia en política pública, sin conocimientos especializados de IA. Presenta los términos antes de utilizarlos y distingue los instrumentos que podrían confundirse. La revisión del 16 de noviembre también ajusta el articulado para corresponder a los mecanismos expuestos en cada propuesta.
 
@@ -18,7 +18,7 @@ La revisión de lectura del 27 de octubre adapta las explicaciones para un direc
 
 1. Sincronizar este repositorio desde la integración GitHub del proyecto de Overleaf o importar su ZIP como un proyecto nuevo.
 2. Seleccionar `main.tex` como documento principal y **pdfLaTeX** como compilador.
-3. Compilar. No se requiere BibTeX, archivos externos ni ejecución de scripts. Las citas de programas e informes enlazan a referencias completas en `Paper/sections/Referencias.tex`, que conserva los enlaces originales a las fuentes. Las normas mantienen sus enlaces directos y el informe de IA se identifica en el material complementario.
+3. Compilar. No se requiere BibTeX, archivos externos ni ejecución de scripts. Las citas de programas e informes enlazan a referencias completas en `Paper/sections/Referencias.tex`, que conserva los enlaces originales a las fuentes e incluye el informe de IA. Las normas mantienen sus enlaces directos.
 
 ## Archivos
 
@@ -29,7 +29,7 @@ La revisión de lectura del 27 de octubre adapta las explicaciones para un direc
 - `Paper/sections/Introduccion.tex` contiene la breve nota inicial. La introducción anterior se conserva comentada.
 - `Paper/sections/Propuestas.tex` contiene las cinco propuestas como secciones, cada una con cuatro subsecciones. Conserva los artículos íntegros, las condiciones comunes de ejecución sin numerar y los textos silenciados al final. Los recortes por repetición también se conservan comentados.
 - `Paper/sections/Referencias.tex` contiene las fuentes no normativas citadas, con autor, fecha, título y enlace.
-- `Paper/sections/MaterialComplementario.tex` contiene la referencia y el enlace a la matriz de Jorge Orozco.
+- `Paper/sections/MaterialComplementario.tex` contiene una nota breve con enlaces a la matriz de Jorge Orozco y al cuadro de comparación con las Bases, sin título ni entrada en la tabla de contenido.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
 
@@ -71,4 +71,4 @@ La nota al final del informe identifica el uso de IA generativa en la búsqueda 
 
 ## Jerarquía de secciones
 
-Después del resumen ejecutivo aparece una tabla de contenido con enlaces y números de página, seguida de una breve nota de contexto. La tabla incluye las cinco propuestas, sus subsecciones y los apartados finales. Las cinco propuestas son secciones numeradas del 1 al 5. Cada una contiene cuatro subsecciones numeradas: Antecedentes, Descripción de la propuesta, Justificación y Articulado. Las divisiones internas se presentan en negrilla, sin otro nivel de secciones. La descripción incluye responsables, financiación y evaluación. La vía legislativa se explica antes de los artículos, distinguiendo el PND de los proyectos de ley complementarios. El cierre, las referencias y el material complementario conservan títulos sin numerar. La nota de uso de IA permanece al final.
+Después del resumen ejecutivo aparece una tabla de contenido con enlaces y números de página, seguida de una breve nota de contexto. La tabla incluye las cinco propuestas, sus subsecciones y los apartados finales. Las cinco propuestas son secciones numeradas del 1 al 5. Cada una contiene cuatro subsecciones numeradas: Antecedentes, Descripción de la propuesta, Justificación y Articulado. Las divisiones internas se presentan en negrilla, sin otro nivel de secciones. La descripción incluye responsables, financiación y evaluación. La vía legislativa se explica antes de los artículos, distinguiendo el PND de los proyectos de ley complementarios. El cierre y las referencias conservan títulos sin numerar. Después de las referencias aparece una nota breve con enlaces a los materiales de consulta, sin sección independiente ni entrada en el índice. La nota de uso de IA permanece al final.

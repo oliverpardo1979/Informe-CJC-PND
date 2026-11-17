@@ -18,7 +18,7 @@ La revisión de lectura del 27 de octubre adapta las explicaciones para un direc
 
 1. Sincronizar este repositorio desde la integración GitHub del proyecto de Overleaf o importar su ZIP como un proyecto nuevo.
 2. Seleccionar `main.tex` como documento principal y **pdfLaTeX** como compilador.
-3. Compilar. No se requiere BibTeX, archivos externos ni ejecución de scripts. Las citas de programas e informes enlazan a referencias completas en `Paper/sections/Referencias.tex`. Solo se muestran las fuentes citadas o mencionadas en el texto visible, incluido el articulado. Las demás se conservan comentadas, con sus enlaces originales. Las normas mantienen sus enlaces directos.
+3. Compilar. No se requiere BibTeX, archivos externos ni ejecución de scripts. Las citas de programas e informes enlazan a referencias completas en `Paper/sections/Referencias.tex`. En los cuadros de referentes internacionales, los enlaces abren directamente las fuentes y las referencias completas permanecen en la bibliografía. Solo se muestran las fuentes citadas o mencionadas en el texto visible, incluido el articulado. Las demás se conservan comentadas, con sus enlaces originales. Las normas mantienen sus enlaces directos.
 
 ## Archivos
 
@@ -46,7 +46,7 @@ La matriz también está enlazada desde el informe, después del cuerpo de las p
 - Resumen ejecutivo e introducción, en `Paper/sections/ResumenEjecutivo.tex` y `Paper/sections/Introduccion.tex`, respectivamente.
 - Título y subtítulo de portada, en `Paper/configuracion.tex`, comandos `reporttitle` y `reportsubtitle`.
 - Títulos de propuestas, en `Paper/sections/Propuestas.tex`, comandos `\section{...}`.
-- Las cuatro subsecciones se editan en los comandos `\subsection{...}` de ese mismo archivo. Las divisiones internas breves usan `\textbf{...}`. Los proyectos de artículos permanecen en recuadros dentro de las propuestas sobre centros mixtos y SAS. Buscar «Proyecto de ley ordinaria» o «Instrumentos de ejecución». Las otras propuestas contienen medidas de ejecución administrativa, no artículos del PND.
+- Las cuatro subsecciones se editan en los comandos `\subsection{...}` de ese mismo archivo. Cada justificación presenta el argumento colombiano y un cuadro de referentes internacionales con nombre, descripción y enlaces, editable dentro de `\begin{longtable}` y `\end{longtable}`. Las divisiones internas breves usan `\textbf{...}`. Los proyectos de artículos permanecen en recuadros dentro de las propuestas sobre centros mixtos y SAS. Buscar «Proyecto de ley ordinaria» o «Instrumentos de ejecución». Las otras propuestas contienen medidas de ejecución administrativa, no artículos del PND.
 - Los artículos de la reforma pensional se conservan completos, comentados dentro de la propuesta original 8.
 
 ## Desarrollo jurídico de la versión original de diez propuestas

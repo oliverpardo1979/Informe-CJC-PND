@@ -28,7 +28,7 @@ La revisión de lectura del 27 de octubre adapta las explicaciones para un direc
 - `Paper/sections/ResumenEjecutivo.tex` presenta las cinco propuestas visibles en negrilla, con una breve explicación por propuesta.
 - `Paper/sections/Introduccion.tex` contiene la breve nota inicial. La introducción anterior se conserva comentada.
 - `Paper/sections/Propuestas.tex` contiene las cinco propuestas como secciones, cada una con cuatro subsecciones. Conserva los dos proyectos de ley complementarios íntegros y los textos silenciados al final. Los recortes por repetición también se conservan comentados.
-- `Paper/sections/Referencias.tex` contiene 83 fuentes citadas o mencionadas en el texto visible, incluidas las normas. La revisión del 17 de noviembre comentó otras 17 entradas sin uso, sin borrar su contenido ni sus enlaces. Las referencias de propuestas silenciadas que ya estaban comentadas permanecen así.
+- `Paper/sections/Referencias.tex` contiene 84 fuentes citadas o mencionadas en el texto visible, incluidas las normas. La revisión del 17 de noviembre comentó otras 17 entradas sin uso, sin borrar su contenido ni sus enlaces. Las referencias de propuestas silenciadas que ya estaban comentadas permanecen así.
 - `Paper/sections/MaterialComplementario.tex` contiene una nota breve con enlaces a la matriz de Jorge Orozco y al cuadro de comparación con las Bases, sin título ni entrada en la tabla de contenido.
 - `Paper/sections/NotaIA.tex` contiene la nota de uso de IA, al final del informe.
 - `Paper/figures/logo_cjc_palatino_horizontal.png` es el logo utilizado por los informes anteriores.
